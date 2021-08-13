@@ -28,7 +28,7 @@
 
                 <div class="form-group">
                     <label for="senha">Senha:</label>
-                    <input type="password" name="senha" id="senha" class="form-control" required minlength="61520">
+                    <input type="password" name="senha" id="senha" class="form-control" required minlength="6">
                 </div><br/><br/>
 
                 <input type="submit" value="Entrar" class="btn-primary" id="botaoLogin">
