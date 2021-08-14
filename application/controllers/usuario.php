@@ -11,6 +11,7 @@ class usuario extends CI_Controller {
 	public function index()
 	{
         $dados['usuarios'] = $this->usuario->listar();
-        $this->load->view('Usuario/index', $dados);
+        $this->load->view('Templates/header', $dados);
+        $this->load->view('Usuario/index');
 	}
 }

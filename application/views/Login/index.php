@@ -17,7 +17,7 @@
                 <p class="erro"><?= $erro ?></p>
             <?php endif; ?>
 
-            <h2 id="tituloLogin">Login</h2><br/><br/>
+            <h2 id="tituloLogin">Login</h2><br/>
 
             <form action="<?= base_url() ?>login/store" method="post">
 
@@ -29,7 +29,9 @@
                 <div class="form-group">
                     <label for="senha">Senha:</label>
                     <input type="password" name="senha" id="senha" class="form-control" required minlength="6">
-                </div><br/><br/>
+                </div><br/>
+
+                <a href="#" id="cadastro">Ainda não posui cadastro ? Cadastre-se aqui !</a><br/><br/>
 
                 <input type="submit" value="Entrar" class="btn-primary" id="botaoLogin">
             </form>

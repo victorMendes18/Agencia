@@ -33,3 +33,10 @@
 #botaoLogin{
     margin-left: 165px;
 }
+
+#cadastro{
+    text-shadow: none;
+    margin-left: 20px;
+    text-shadow: 1px 1px 1px black;
+    text-decoration: none;
+}
